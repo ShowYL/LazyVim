@@ -9,3 +9,7 @@ keymap("v", "K", ":m '<-2<CR>gv=gv")
 -- Keep cursor in middle
 keymap("n", "<C-d>", "<C-d>zz")
 keymap("n", "<C-u>", "<C-u>zz")
+
+-- Keep search terms in middle
+keymap("n", "n", "nzzzv")
+keymap("n", "N", "Nzzzv")
