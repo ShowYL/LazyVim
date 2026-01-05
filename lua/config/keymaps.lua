@@ -15,3 +15,8 @@ keymap("n", "<C-u>", "<C-u>zz")
 -- Keep search terms in middle
 keymap("n", "n", "nzzzv")
 keymap("n", "N", "Nzzzv")
+
+-- System clipboard
+keymap("n", "<leader>y", '"+y')
+keymap("v", "<leader>y", '"+y')
+keymap("n", "<leader>Y", '"+Y')

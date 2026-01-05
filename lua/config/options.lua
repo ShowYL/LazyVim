@@ -9,3 +9,6 @@ vim.opt.shiftwidth = 4
 
 -- Center the screen when scrolling
 vim.opt.scrolloff = 8
+
+-- Not yank to system clipboard by default
+vim.opt.clipboard = ""
