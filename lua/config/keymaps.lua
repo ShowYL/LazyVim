@@ -4,6 +4,10 @@
 
 local keymap = vim.keymap.set
 
+-- Indentation
+keymap("v", "<Tab>", ">gv", { noremap = true, silent = true })
+keymap("v", "<S-Tab>", "<gv", { noremap = true, silent = true })
+
 -- Move selected lines
 keymap("v", "J", ":m '>+1<CR>gv=gv")
 keymap("v", "K", ":m '<-2<CR>gv=gv")
