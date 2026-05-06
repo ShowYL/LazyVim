@@ -1,0 +1,54 @@
+{
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
+  "vim.useSystemClipboard": false,
+  "vim.scrolloff": 8,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<C-d>"],
+      "after": ["<C-d>", "zz"]
+    },
+    {
+      "before": ["<C-u>"],
+      "after": ["<C-u>", "zz"]
+    },
+    {
+      "before": ["n"],
+      "after": ["n", "zzzv"]
+    },
+    {
+      "before": ["N"],
+      "after": ["N", "Nzzzv"]
+    },
+    {
+      "before": ["<space>", "y"],
+      "after": ['"+y']
+    },
+    {
+      "before": ["<space>", "Y"],
+      "after": ['"+Y']
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<Tab>"],
+      "after": [">gv"]
+    },
+    {
+      "before": ["S-Tab"],
+      "after": ["<gv"]
+    },
+    {
+      "before": ["J"],
+      "after": [":m '>+1<CR>gv=gv"]
+    },
+    {
+      "before": ["K"],
+      "after": [":m '<-2<CR>gv=gv"]
+    },
+    {
+      "before": ["<space>", "y"],
+      "after": ['"+y']
+    }
+  ]
+}
